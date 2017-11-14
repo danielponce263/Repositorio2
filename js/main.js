@@ -153,10 +153,10 @@ jQuery(function($) {
 		var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
 		var contentString = '';
 		var infowindow = new google.maps.InfoWindow({
-			content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
+			content: '<div class="map-content"><ul class="address">' + $('#cFrutas').html() + '</ul></div>'
 		});
 		/*Imagenes de los productores mas cercanos a mi posicion*/
-		var imagen = 'http://localhost/Dely-Qatu_v3/images/banana2.png';
+		var imagen = 'http://localhost/Dely-Qatu_DIU/images/banana2.png';
 		
 		/*Marcador de mi posicion original DEMO: FISI , mas adelante se usara el plugin de la W3c*/
 		marker = new google.maps.Marker({ //Posicion actual
